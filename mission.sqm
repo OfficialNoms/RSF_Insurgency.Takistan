@@ -37044,7 +37044,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={759.04333,526.31323,363.82523};
+				position[]={759.04303,526.31342,363.82501};
 			};
 			id=1075;
 			type="tfar_ModuleTaskForceRadioEnforceUsage";
@@ -37084,7 +37084,7 @@ class Mission
 									"BOOL"
 								};
 							};
-							value=1;
+							value=0;
 						};
 					};
 				};
@@ -37141,7 +37141,7 @@ class Mission
 									"BOOL"
 								};
 							};
-							value=1;
+							value=0;
 						};
 					};
 				};
