@@ -35,3 +35,6 @@ if (hasInterface) then {
 
 sleep 4;
 titleText ["Go clean up Takistan, soldier!", "PLAIN"];
+
+// Initialize R3F Logistics Scripts...
+execVM "R3F_LOG\init.sqf";
