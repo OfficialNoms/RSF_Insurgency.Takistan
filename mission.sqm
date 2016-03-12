@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=33;
+		nextID=36;
 	};
 	class Camera
 	{
 		pos[]={8005.3413,413.15845,1989.5463};
-		dir[]={-0.72474343,-0.12530331,-0.67765462};
-		up[]={-0.091702186,0.99207199,-0.085741967};
-		aside[]={-0.68303365,2.5827903e-006,0.7304939};
+		dir[]={0.80192083,-0.52377611,-0.28766638};
+		up[]={0.49316865,0.85173661,-0.17691186};
+		aside[]={-0.33767819,1.6707927e-006,-0.94134539};
 	};
 };
 binarizationWanted=0;
@@ -136,6 +136,25 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
+			property="RespawnButton";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=0;
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="RespawnTemplates";
 			expression="true";
 			class Value
@@ -181,25 +200,6 @@ class CustomAttributes
 							};
 						};
 					};
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnButton";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"SCALAR"
-						};
-					};
-					value=0;
 				};
 			};
 		};
@@ -35911,7 +35911,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=2;
+							value=0;
 						};
 					};
 				};
@@ -36093,7 +36093,7 @@ class Mission
 									"BOOL"
 								};
 							};
-							value=0;
+							value=1;
 						};
 					};
 				};
